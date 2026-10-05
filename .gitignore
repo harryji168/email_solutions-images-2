@@ -1,0 +1,5 @@
+# public/images/slideshow is a Windows junction into C:\email_solutions-slideshow,
+# which is its own git repo and is pushed separately by the sync script.
+# Tracking it here duplicated ~8 GB of the same images and made this repo's
+# root commit 8.14 GB - over GitHub's 2 GB per-push limit, so every push 500'd.
+public/images/slideshow/
